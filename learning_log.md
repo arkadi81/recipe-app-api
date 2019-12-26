@@ -11,3 +11,11 @@
 * allows us to manage our image and services
 * in root, touch docker-compose.yml
 * once done, in root docker-compose build
+
+# travis-ci
+* sign into travis-ci.org, sync with github, enable the repo you're working on
+* in root of project, add conf file .travis.yml
+
+# flake8
+* python linting tool
+* within /app, create config file .flake
