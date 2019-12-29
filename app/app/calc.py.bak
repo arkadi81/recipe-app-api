@@ -1,0 +1,7 @@
+def add(x,y):
+	"""adds two numbers. this is a function we will use to learn about testing"""
+	return x + y
+
+def subtract(x,y):
+	# subtract two numbers
+	return x-y

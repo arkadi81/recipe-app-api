@@ -1,0 +1,14 @@
+
+from django.test import TestCase
+"""django unit test framework looks for all files starting with tests*"""
+"""TestCase is a class containing helper functions for testing"""
+from app.calc import add, subtract
+
+class CalcTests(TestCase):
+	# this is the suite of tests for calc
+
+	def test_add_numbers(self):
+		"""always start a test with a description of what it is we're testing"""
+		self.assertEqual(add(3,8),11)
+	def test_subtract_numbers(self):
+		self.assertEqual(subtract(4,5),-1)
